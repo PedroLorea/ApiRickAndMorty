@@ -1,0 +1,6 @@
+-- CreateTable
+CREATE TABLE "teste" (
+    "id" TEXT NOT NULL PRIMARY KEY,
+    "nome" TEXT NOT NULL,
+    "createDate" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
