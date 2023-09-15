@@ -20,7 +20,6 @@ export const Criar = () => {
           result.push({ id: row.id, name: row.name });
         }
       }, () => {
-        // Após a conclusão da operação, resolvemos a Promise com um objeto JSON.
         resolve({ data: result });
       });
     });
